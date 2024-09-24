@@ -66,11 +66,26 @@ h6 {
   font-family: "Overpass", sans-serif;
 }
 .first {
-  background-image: url('bg-pattern-intro-mobile.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}
+#mobile {
+  display: none;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+.active {
+  display: block;
 }
 @media screen and (min-width: 37.5rem) {
+  #mobile {
+    display: block;
+  }
+  .hamburg {
+    display: none;
+  }
  .first {
   background-image: url('bg-pattern-intro-desktop.svg');
   }
