@@ -69,12 +69,38 @@ body {
  font-size: 1rem;
 }
 .first {
-  background-image: url('bg-pattern-intro-desktop.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-image: url('bg-pattern-intro-mobile.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   padding: 20px 40px;
+}
+
+.design {
+  display: flex; 
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+} 
+.mobile {
+  background-image: url('illustration-phones.svg');
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+  height: 600px;
+}
+.Art {
+  background: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+}
+.computer {
+  background-image: url('illustration-editor-mobile.svg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  height: 600px;
 }
 .third {
   background-color: var(--White);
@@ -89,18 +115,39 @@ body {
 .active {
   display: block;
 }
+footer {
+  color: var(--Grayish-blue-footer-text);
+  background-color: var(--Very-dark-black-blue-footer-background);
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 37.5rem) {
   #mobile {
     display: block;
   }
+  .fourth {
+    flex-direction: row;
+    justify-content: space-between
+  }
   .navbar {
     flex-direction: row;
+  }
+  .design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .hamburg {
     display: none;
   }
+
  .first {
-  background-image: url('bg-pattern-intro-desktop.svg');
+  background-image: url('bg-pattern-intro-desktop.svg') linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   }
 }
 .attribution {
