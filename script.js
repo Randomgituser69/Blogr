@@ -1,6 +1,4 @@
 const toggleBtn = document.querySelector('.hamburg')
-const navLinks = document.getElementById('mobile')
+const btn = document.querySelectorAll('.mobiles')
+const navLinkies = document.querySelector('ul')
 
-toggleBtn.addEventListener('click', function() {
-    navLinks.classList.toggle('active')
-})
