@@ -1,7 +1,9 @@
 const toggleBtn = document.querySelector('.hamburg')
-const btn = document.querySelectorAll('.mobiles')
+const btns = document.querySelectorAll('.mobiles')
 const navLinkies = document.querySelector('ul')
-
-btn.addEventListener('click', function() {
-   navLinkies.classList.toggle('show')
+btns.forEach(function(butt) {
+const lists = e.currentTarget.parentElement.parentElement()
+butt.addEventListener('click', function() {
+   list.classList.toggle('show')
+})
 })
