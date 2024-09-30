@@ -69,7 +69,7 @@ body {
  font-size: 1rem;
 }
 .first {
-  background-image: url('bg-pattern-intro-mobile.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-image: url('design/bg-pattern-intro-mobile.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ ul {
   text-align: center;
 } 
 .mobile {
-  background-image: url('illustration-phones.svg');
+  background-image: url('design/illustration-phones.svg');
   background-size: contain;
 
   background-repeat: no-repeat;
@@ -109,14 +109,14 @@ ul {
   height: 300px;
 }
 .computer {
-  background-image: url('illustration-editor-mobile.svg');
+  background-image: url('design/illustration-editor-mobile.svg');
   background-size: contain; 
   background-repeat: no-repeat; 
   height: 600px;
   width: 400px;
 }
 .laptop {
-    background-image: url('illustration-laptop-desktop.svg');
+    background-image: url('design/illustration-laptop-desktop.svg');
       background-size: contain;
 
         background-repeat: no-repeat;
@@ -197,14 +197,14 @@ footer {
   }
 
  .first {
-  background-image: url('bg-pattern-intro-desktop.svg') linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)); 
+  background-image: url('design/bg-pattern-intro-desktop.svg') linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 40px 50px;
   }
 .computer {
-  background-image: url('illustration-editor-desktop.svg');
+  background-image: url('design/illustration-editor-desktop.svg');
 } 
 .third {
   display: grid; 
@@ -221,7 +221,7 @@ footer {
 */
 
 .laptop {
-  background-image: url('illustration-laptop-desktop.svg');
+  background-image: url('design/illustration-laptop-desktop.svg');
 }
 }
 .attribution {
