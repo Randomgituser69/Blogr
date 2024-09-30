@@ -69,7 +69,7 @@ body {
  font-size: 1rem;
 }
 .first {
-  background-image: url('design/bg-pattern-intro-mobile.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-image: url('Blogr/design/bg-pattern-intro-mobile.svg'), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
